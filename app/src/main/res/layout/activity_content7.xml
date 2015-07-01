@@ -1,0 +1,30 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.alvin.histora.ContentActivity">
+
+    <TextView
+        android:text="Postwar Period (1945-1955)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:text="After the Japanese surrender to the Allies on 15 August 1945, Singapore fell into a brief state of anomie; looting and revenge-killing were widespread. British troops led by Lord Louis Mountbatten, Supreme Allied Commander for Southeast Asia Command, returned to Singapore to receive formal surrender of the Japanese forces in the region from General Itagaki Seishiro on behalf of General Hisaichi Terauchi on 12 September 1945, and a British Military Administration was formed to govern the island until March 1946. Much of the infrastructure had been destroyed during the war, including electricity and water supply systems, telephone services, as well as the harbor facilities at the Port of Singapore. There was also a shortage of food leading to malnutrition, disease, and rampant crime and violence. High food prices, unemployment, and workers' discontent culminated into a series of strikes in 1947 causing massive stoppages in public transport and other services. By late 1947, the economy began to recover, facilitated by a growing demand for tin and rubber around the world, but it would take several more years before the economy returned to pre-war levels."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" />
+    <Button
+        android:text="Quiz Yourself!"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/quiz_button"/>
+
+</LinearLayout>

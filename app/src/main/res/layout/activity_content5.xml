@@ -1,0 +1,32 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.alvin.histora.ContentActivity">
+
+    <TextView
+        android:text="Crown Colony (1867-1942)"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.14" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="As Singapore continued growing, it became more clear that the Straits Settlements administration was inadequate, and merchants began protesting against British Indian rule. The Straits Settlements was established as a separate Crown Colony on 1 April 1867, and was therefore no longer under the jurisdiction of the East India Company, but directly from the Colonial Office in London, with a governmor, an executive council and a legislative council ruling the  colony. As such, the new colonial government started to address the serious social problems Singapore faced, such as the presence of Chinese Secret Societies, which can be likened to gangs. A Chinese Protectorate was esstablished in 1877 to address the needs of the large Chinese community, especially abuse of Chinese labourers and forced prostitution. World War I did not have a serious impact on Singapore, other than a mutiny in 1915 by British Muslim soldiers stationed at Singapore. After the war, the British devoted a lot of resourced to building a naval base in Singapore, to counter the threat of the increasingly ambitious Japanese Empire, which was completed in 1939 at a cost of $500 million at the time. However, it was a base without a fleet as it was stationed in Europe, and was involved in defending Britain when World War II broke out. "
+        android:id="@+id/PreRafflesText"
+        android:layout_weight="0.17" />
+
+    <Button
+        android:text="Quiz Yourself!"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/quiz_button"/>
+
+</LinearLayout>

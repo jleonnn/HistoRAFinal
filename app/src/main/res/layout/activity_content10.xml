@@ -1,0 +1,32 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.alvin.histora.ContentActivity">
+
+    <TextView
+        android:text="Independence (1965-Present)"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.14" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Many were skeptical about Singapore's ability to survive, citing existing social problems such as education, housing and unemployment, as well as lack of land and natural resources. Singapore was admitted into the United Nations and the Commonwealth in 1965, and established diplomatic relations with many countries. Industrial Estates were set up, especially in Jurong, and Singapore tried to attract foreign investment through tax incentives. The government invested heavily in education, establishing English as the language of instruction. National Service was introduced in 1967 to aid in defense of the new nation. Singapore prosered economically, with unmeployment falling to 3% in the 1980s and real GDP growth averageing 8% all the way until 1999. Housing was developed through the Housing Development Board (HDB) who provided public housing to the population, developing new residential estates. Today 80-90% of the population live in HDB apartments. Lee Kuan Yew, the first prime minister of Singapore, was succeeded by Goh Chok Tong in 1990, who presented a more open and consultative government, as Singapore continuted to develop. Lee Hsien Loong, the eldest son of Lee Kuan Yew succeeded Goh Chok Tong as prime minister in 2004."
+        android:id="@+id/PreRafflesText"
+        android:layout_weight="0.17" />
+
+    <Button
+        android:text="Quiz Yourself!"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/quiz_button"/>
+
+</LinearLayout>

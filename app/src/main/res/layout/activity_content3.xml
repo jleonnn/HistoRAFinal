@@ -1,0 +1,37 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.alvin.histora.ContentActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Early Growth (1819-1826)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:layout_marginBottom="10dp" />
+    <TextView
+        android:text="Raffles returned to Bencoolen soon after the signing of the treaty and left Major William Farquhar in charge of the new settlement, with some artillery and a small regiment of Indian soldiers. Establishing a trading port from scratch was a daunting endeavor. Farquhar's administration was fairly funded and was prohibited from collecting port duties to raise revenue as Raffles had decided that Singapore would be a free port. Farquhar invited settlers to Singapore, and stationed a British official on St. John's Island to invite passing ships to stop in Singapore. As news of the free port spread across the archipelago, Bugis, Peranakan Chinese, and Arab traders flocked to the island, seeking to circumvent the Dutch trade restrictions. During the starting year of operation, $400,000 (Spanish dollars) worth of trade passed through Singapore. By 1821, the island's population had gone up to around 5,000, and the trade volume was $8 million. The population reached the 10,000 mark in 1825, and with a trade volume of $22 million, Singapore surpassed the long-established port of Penang.Raffles returned to Singapore in 1822 and became critical of many of Farquhar's decisions, despite Farquhar's success in leading the settlement through its difficult early years. For instance, in order to generate much-needed revenue, Farquhar had resorted to selling licenses for gambling and the sale of opium, which Raffles saw as social evils. Shocked at the disarray of the colony, Raffles set about drafting a set of new policies for the settlement. He also organized Singapore into functional and ethnic subdivisions under the Raffles Plan of Singapore. Today, remnants of this organization can still be found in the ethnic neighborhoods."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:text="Quiz Yourself!"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/quiz_button"/>
+
+</LinearLayout>
+</ScrollView>

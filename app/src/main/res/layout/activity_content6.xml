@@ -1,0 +1,34 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.alvin.histora.ContentActivity">
+
+    <TextView
+        android:text="Battle for Singapore and Japanese Occupation (1942-1945)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="On 8 December 1941, Japanese forces landed at Kota Bharu in northern Malaya. Just two days after the start of the invasion of Malaya, Prince of Wales and Repulse were sunk 50 miles off the coast of Kuantan in Pahang, by a force of Japanese bombers and torpedo bomber aircraft, in the worst British naval defeat of World War II. Allied air support did not arrive in time to protect the two capital ships.After this incident, Singapore and Malaya suffered daily air raids, including those targeting civilian structures such as hospitals or shophouses with casualties ranging from the tens to the hundreds each time. By 31 January 1942, a mere 55 days after the start of the invasion, the Japanese had conquered the entire Malay Peninsula and were poised to attack Singapore.The causeway linking Johor and Singapore was blown up by the Allied forces in an effort to stop the Japanese army. However, the Japanese managed to cross the Straits of Johor in inflatable boats days after. Several fights by the Allied forces and volunteers of Singapore's population against the advancing Japanese, such as the Battle of Pasir Panjang, took place during this period.However, with most of the defenses shattered and supplies exhausted, Lieutenant-General Arthur Percival surrendered the Allied forces in Singapore to General Tomoyuki Yamashita of the Imperial Japanese Army on Chinese New Year, 15 February 1942. About 130,000 Indian, Australian and British troops became prisoners of war."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Quiz Yourself!"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/quiz_button"/>
+
+</LinearLayout>
+</ScrollView>

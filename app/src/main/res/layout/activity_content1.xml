@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.alvin.histora.ContentActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Pre-Raffles"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.14" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Although Greco-Roman astronomer Ptolemy (90–168) identified a place called Sabana in the general area,the earliest written record of Singapore occurs in a Chinese account from the third century, describing the island of Pu Luo Chung.The Sejarah Melayu (Malay Annals) contains a tale of a prince of Srivijaya, Sri Tri Buana (also known as Sang Nila Utama), who landed on the island during the 13th century. When he saw a lion, the prince took this as an auspicious sign and founded a settlement called Singapura, which means 'Lion City' in Malay."
+        android:id="@+id/PreRafflesText"
+        android:layout_weight="0.17" />
+
+    <Button
+        android:text="Quiz Yourself!"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/quiz_button"/>
+
+</LinearLayout>

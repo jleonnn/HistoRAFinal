@@ -1,0 +1,34 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.alvin.histora.ContentActivity"
+    android:id="@+id/Founding"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Founding of Modern Singapore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sir Stamford Raffles arrived in Singapore on 28 January 1819 and soon recognised the island as a natural choice for the new port. It lay at the southern tip of the Malay peninsula, near the Straits of Malacca, and possessed a natural deep harbor, fresh water supplies, and timber for repairing ships. Raffles found a small Malay settlement, with a population of about a thousand, at the mouth of the Singapore River, headed by Temenggong Abdu'r Rahman. The island was nominally ruled by the Sultan of Johor, who was controlled by the Dutch and the Bugis. However, the Sultanate was weakened by factional division and Temenggong Abdu'r Rahman and his officials were loyal to Tengkoo Rahman's elder brother Tengku Hussein (or Tengku Long) who was living in exile in Riau. With the Temenggong's help, Raffles managed to smuggle Hussein back into Singapore. He offered to recognize Hussein as the rightful Sultan of Johor and provide him with a yearly payment; in return, Hussein would grant the British the right to establish a trading post on Singapore.A formal treaty was signed on 6 February 1819 and modern Singapore was born. "
+        android:layout_weight="0.25"
+        />
+
+    <Button
+        android:text="Quiz Yourself!"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/quiz_button"/>
+
+</LinearLayout>

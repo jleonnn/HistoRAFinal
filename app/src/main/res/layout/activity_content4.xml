@@ -1,0 +1,35 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.alvin.histora.ContentActivity">
+
+    <TextView
+        android:text="Straits Settlements (1826-1867)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" />
+    <TextView
+        android:text="The status of a British outpost in Singapore seemed initially in doubt as the Dutch government soon protested to Britain for violating the Netherlands' sphere of influence. But as Singapore rapidly emerged as an important trading post, Britain consolidated its claim on the island. The Anglo-Dutch Treaty of 1824 cemented the status of Singapore as a British possession, carving up the Malay archipelago between the two colonial powers with the area north of the Straits of Malacca, including Singapore, falling under Britain's sphere of influence. In 1826, Singapore was grouped by the British East India Company together with Penang and Malacca to form the Straits Settlements, administered by the British East India Company.During the subsequent decades, Singapore grew to become an important port in the region. Its success was due to several reasons including the opening of the Chinese market, the advent of ocean-going steamships, and the production of rubber and tin in Malaya. Its status as a free port provided a crucial advantage over other colonial port cities in Batavia (now Jakarta) and Manila where tariffs were levied, and it drew many Chinese, Malay, Indian, and Arab traders operating in South-East Asia to Singapore. Despite Singapore's growing importance, the administration governing the island was understaffed, ineffectual and unconcerned with the welfare of the populace. Administrators were usually posted from India and were unfamiliar with local culture and languages. While the population had quadrupled during 1830 to 1867, the size of the civil service in Singapore had remained unchanged. Most people had no access to public health services and diseases such as cholera and smallpox caused severe health problems, especially in overcrowded working-class areas.The situation created deep concern in the European population of the island. In 1854 the Singapore Free Press complained that Singapore was a 'small island' full of the 'very dregs of the population of south eastern Asia'. "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:text="Quiz Yourself!"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/quiz_button"/>
+
+</LinearLayout>
+</ScrollView>

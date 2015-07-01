@@ -1,0 +1,34 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.alvin.histora.ContentActivity">
+
+    <TextView
+        android:text="Self-Governance (1955-1963)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="David Marshall, leader of the Labour Front, became the first Chief Minister of Singapore. He presided over a shaky government, receiving little cooperation from either the colonial government or the other local parties. Social unrest was on the rise, and in May 1955, the Hock Lee bus riots broke out, killing four people and seriously discrediting Marshall's government. In 1956, the Chinese middle school riots broke out among students in The Chinese High School and other schools, further increasing the tension between the local government and the Chinese students and unionists who were regarded of having communist sympathies.In April 1956, Marshall led a delegation to London to negotiate for complete self-rule in the Merdeka Talks, but the talks failed when the British were reluctant to give up control over Singapore's internal security. The British were concerned about communist influence and labour strikes which were undermining Singapore's economic stability, and felt that the local government was ineffective in handling earlier riots. Marshall resigned following the failure of the talk.Elections for the new Legislative Assembly were held in May 1959. The People's Action Party (PAP) won the polls in a landslide victory, winning forty-three of the fifty-one seats. Despite their successes in governing Singapore, the PAP leaders, including Lee and Goh, believed that Singapore's future lay with Malaya. Hence, the PAP leadership began campaigning vigorously for merger.  "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Quiz Yourself!"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/quiz_button"/>
+
+</LinearLayout>
+    </ScrollView>
